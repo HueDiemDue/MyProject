@@ -106,7 +106,7 @@ export default class BranchComponent extends React.Component {
               strokeDasharray={[item.dashOffset, item.dashOffset]}
               strokeLinecap="round"
               strokeDashoffset={item.dashOffset}
-              stroke={item.options.color || 'green'}
+              stroke={'green'}
               strokeWidth={6}
               fill="none"
             />
